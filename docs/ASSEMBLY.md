@@ -28,10 +28,10 @@ The M3×12 and M3×16 screws cut their own thread in the printed holes, so no ot
 
 | Part | Qty | Link | Notes |
 |---|---|---|---|
-| 12 V geared motor, Mabuchi 370 with planetary gearbox, D-shaft | 2 | [AliExpress](https://www.aliexpress.com/item/1005004449521703.html) | Sold in several speeds (22 to 58 RPM). |
+| Geared motor, Mabuchi 370 with planetary gearbox, D-shaft, 5 to 12 V | 2 | [AliExpress](https://www.aliexpress.com/item/1005004449521703.html) | Sold in several speeds (22 to 58 RPM). |
 | Shaft coupler, 4 mm bore to 12 mm hex | 2 | [AliExpress](https://www.aliexpress.com/item/1005009791959118.html) | |
 | Push switch, 16 mm, momentary, no LED, with wires, 12 to 24 V, black | 2 | [AliExpress](https://www.aliexpress.com/item/1005004920346156.html) | Pick the momentary, no-LED option. |
-| 12 V power supply with DC plug | 1 | [Amazon UK](https://www.amazon.co.uk/dp/B096VPYQ69) | |
+| Adjustable DC power supply with DC plug | 1 | [Amazon UK](https://www.amazon.co.uk/dp/B096VPYQ69) | Set to 6 to 12 V; see Supply voltage below. |
 | DC socket adapter with screw terminals, 5.5 × 2.1 mm | 1 | | Pushes up into the slot in the back of the tub. Match it to the plug on your supply. |
 | 22 AWG wire, red and black | | [Amazon UK](https://www.amazon.co.uk/dp/B07V5FVSYL) | |
 | Heat-shrink sleeving | | | For every joint. |
@@ -41,6 +41,10 @@ The M3×12 and M3×16 screws cut their own thread in the printed holes, so no ot
 ![Wiring diagram](../images/wiring.svg)
 
 From the + terminal of the DC socket, one red wire to each push switch, and from each switch on to the + of its own motor. The − of both motors goes back to the − terminal of the socket. Pressing a portafilter onto a head closes that motor's switch, so each motor only runs while its own head is pressed.
+
+### Supply voltage
+
+PuckOff has been tested at 6 V, 9 V and 12 V DC, and all three work. Which to use is personal preference: a higher voltage spins the heads faster. Mine runs at 9 V DC from an adjustable supply. Don't go above 12 V, the motors' rated maximum.
 
 If a motor turns the wrong way, swap its two wires at the motor (see Direction below). Optional extras, not used in this build: an inline fuse in the + wire from the socket, and a diode across each motor (stripe to +) to save the switch contacts.
 
