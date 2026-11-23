@@ -6,7 +6,7 @@ Designed for a 0.4 mm nozzle; the overhang checks assume 0.2 mm layers.
 
 ## Unit (`parts/unit`)
 
-Rigid material. The tub was planned in ABS-CF; other parts in your usual material.
+All the rigid parts were printed in **Bambu Lab ABS-GF** (ABS with glass fibre). It needs an enclosed printer, and because it is glass-filled a hardened steel nozzle is the safe choice.
 
 | File | Print | Size as printed (mm) | Notes |
 |---|---|---|---|
@@ -22,7 +22,7 @@ Rigid material. The tub was planned in ABS-CF; other parts in your usual materia
 
 ## Scraper head (`parts/scraper_head`)
 
-Print **one** of the two. The blades are curved and should run with their outer ends leading.
+ABS-GF, like the unit. Print **one** of the two. The blades are curved and should run with their outer ends leading.
 
 | File | When | Notes |
 |---|---|---|
@@ -35,7 +35,7 @@ Swapping the two wires on a motor reverses it, which is the other way to match t
 
 | File | Print | Material | Notes |
 |---|---|---|---|
-| `1x_Brush_stack_hub.stl` | 1 | rigid | Spindle. Upside down (top of the spindle on the bed), use a brim. 22 × 22 × 38 mm. |
+| `1x_Brush_stack_hub.stl` | 1 | ABS-GF | Spindle. Upside down (top of the spindle on the bed), use a brim. 22 × 22 × 38 mm. |
 | `1x_Brush_star_rim_TPU.stl` | 1 | TPU | Flat, boss up. 74 mm across. |
 | `2x_Brush_star_wall_A_TPU.stl` | **2** | TPU | Flat, boss up. Easy to print only one by mistake: the stack needs both. |
 | `1x_Brush_star_wall_B_TPU.stl` | 1 | TPU | Flat, boss up. |
