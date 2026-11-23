@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1080" viewBox="0 0 1700 1080" font-family="DejaVu Sans, Verdana, Helvetica, Arial, sans-serif">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="40" y="52" font-size="40" font-weight="bold" fill="#191919" text-anchor="start" dominant-baseline="middle">PuckOff: wiring</text>
-<text x="40" y="100" font-size="23" fill="#5f5f5f" text-anchor="start" dominant-baseline="middle">One 12 V supply, two motors. Each push switch only switches its own motor.</text>
+<text x="40" y="100" font-size="23" fill="#5f5f5f" text-anchor="start" dominant-baseline="middle">One DC supply (6 to 12 V, 9 V in use), two motors. Each push switch only switches its own motor.</text>
 <rect x="40" y="420" width="150" height="140" rx="18" fill="#34343a"/>
-<text x="115" y="472" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">12 V</text>
-<text x="115" y="508" font-size="20" fill="#dcdcdc" text-anchor="middle" dominant-baseline="middle">supply</text>
+<text x="115" y="466" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">6–12 V</text>
+<text x="115" y="500" font-size="19" fill="#dcdcdc" text-anchor="middle" dominant-baseline="middle">DC supply</text>
+<text x="115" y="528" font-size="16" fill="#bcbcbc" text-anchor="middle" dominant-baseline="middle">(9 V in use)</text>
 <polyline points="190,490 250,490" fill="none" stroke="#1e1e22" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
 <rect x="248" y="474" width="52" height="32" rx="6" fill="#46464c"/>
 <rect x="300" y="400" width="170" height="180" rx="14" fill="#242428"/>
@@ -21,7 +22,7 @@
 <rect x="1330" y="200" width="120" height="100" rx="8" fill="#404046"/>
 <rect x="1450" y="240" width="50" height="20" rx="3" fill="#aaaab0"/>
 <text x="1340" y="170" font-size="24" font-weight="bold" fill="#191919" text-anchor="middle" dominant-baseline="middle">Scraper motor</text>
-<text x="1340" y="326" font-size="18" fill="#5f5f5f" text-anchor="middle" dominant-baseline="middle">370 geared motor, 12 V</text>
+<text x="1340" y="326" font-size="18" fill="#5f5f5f" text-anchor="middle" dominant-baseline="middle">370 geared motor, 5 to 12 V</text>
 <rect x="1166" y="219" width="14" height="14" rx="1" fill="#c8aa5a"/>
 <text x="1194" y="226" font-size="24" font-weight="bold" fill="#d62828" text-anchor="start" dominant-baseline="middle">+</text>
 <rect x="1166" y="267" width="14" height="14" rx="1" fill="#c8aa5a"/>
@@ -30,7 +31,7 @@
 <rect x="1330" y="720" width="120" height="100" rx="8" fill="#404046"/>
 <rect x="1450" y="760" width="50" height="20" rx="3" fill="#aaaab0"/>
 <text x="1340" y="690" font-size="24" font-weight="bold" fill="#191919" text-anchor="middle" dominant-baseline="middle">Brush motor</text>
-<text x="1340" y="846" font-size="18" fill="#5f5f5f" text-anchor="middle" dominant-baseline="middle">370 geared motor, 12 V</text>
+<text x="1340" y="846" font-size="18" fill="#5f5f5f" text-anchor="middle" dominant-baseline="middle">370 geared motor, 5 to 12 V</text>
 <rect x="1166" y="739" width="14" height="14" rx="1" fill="#c8aa5a"/>
 <text x="1194" y="746" font-size="24" font-weight="bold" fill="#1e1e22" text-anchor="start" dominant-baseline="middle">−</text>
 <rect x="1166" y="787" width="14" height="14" rx="1" fill="#c8aa5a"/>
@@ -49,7 +50,7 @@
 <circle cx="420" cy="540" r="13" fill="#cdcdd2" stroke="#3c3c3c" stroke-width="2"/><line x1="413" y1="533" x2="427" y2="547" stroke="#505050" stroke-width="3"/>
 <text x="394" y="440" font-size="26" font-weight="bold" fill="#ff6b6b" text-anchor="end" dominant-baseline="middle">+</text>
 <text x="394" y="540" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="end" dominant-baseline="middle">−</text>
-<text x="586" y="420" font-size="20" font-weight="bold" fill="#d62828" text-anchor="end" dominant-baseline="middle">+12 V</text>
+<text x="586" y="420" font-size="20" font-weight="bold" fill="#d62828" text-anchor="end" dominant-baseline="middle">+ V</text>
 <text x="674" y="564" font-size="20" font-weight="bold" fill="#1e1e22" text-anchor="start" dominant-baseline="middle">0 V (−)</text>
 <text x="905" y="230" font-size="18" fill="#d62828" text-anchor="start" dominant-baseline="middle">to motor +</text>
 <text x="905" y="750" font-size="18" fill="#d62828" text-anchor="start" dominant-baseline="middle">to motor +</text>
@@ -61,7 +62,7 @@
 <path d="M600,917 L620,917 A13,13 0 0 1 646,917 L666,917" fill="none" stroke="#1e1e22" stroke-width="7"/><line x1="633" y1="897" x2="633" y2="937" stroke="#d62828" stroke-width="7"/>
 <text x="682" y="917" font-size="21" fill="#191919" text-anchor="start" dominant-baseline="middle">wires cross, not joined</text>
 <text x="1010" y="917" font-size="21" fill="#191919" text-anchor="start" dominant-baseline="middle">●  joined</text>
-<text x="50" y="967" font-size="21" fill="#191919" text-anchor="start" dominant-baseline="middle">All wire 22 AWG. Insulate every joint with heat-shrink.</text>
+<text x="50" y="967" font-size="21" fill="#191919" text-anchor="start" dominant-baseline="middle">All wire 22 AWG. Insulate every joint with heat-shrink. Tested at 6, 9 and 12 V: higher voltage spins the heads faster.</text>
 <text x="50" y="1007" font-size="21" fill="#191919" text-anchor="start" dominant-baseline="middle">Each switch breaks only the + wire of its own motor. Both motors share the − wire back to the socket.</text>
 <text x="50" y="1047" font-size="21" fill="#191919" text-anchor="start" dominant-baseline="middle">If a motor turns the wrong way, swap its two wires at the motor, or print the reverse scraper.</text>
 </svg>
