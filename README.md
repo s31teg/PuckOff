@@ -10,6 +10,15 @@ A 3D-printed, two-head portafilter cleaner for espresso. Turn the portafilter up
 
 It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate underneath, or stand on the bench in a clear container that catches the grounds.
 
+## Built
+
+A finished unit. Both photos show the first (v0.1) scraper and rim star.
+
+| | |
+|---|---|
+| ![PuckOff on the bench in its clear container](images/photo_bench_container.jpg) | ![PuckOff on its own](images/photo_unit.jpg) |
+| On the bench in the printed clear container | On its own, without the container |
+
 ## How it works
 
 - Two small geared DC motors (rated 5 to 12 V) stand in towers inside a printed tub, one per head.
@@ -47,7 +56,7 @@ parts/
   scraper_head/   scraper, in two hands (print one)
   brush_head/     rigid spindle and the TPU stars and combs
   container/      optional clear grounds container for bench-top use
-images/           the pictures above, the print time-lapse and the wiring diagram
+images/           photos, the pictures above, the print time-lapse and the wiring diagram
 docs/             assembly guide, printing guide, exploded view PDF
 slicer/           Bambu Studio filament profile for the clear container
 ```
