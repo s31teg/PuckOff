@@ -8,7 +8,7 @@ It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate u
 
 ## How it works
 
-- Two small 12 V geared motors stand in towers inside a printed tub, one per head.
+- Two small geared DC motors (rated 5 to 12 V) stand in towers inside a printed tub, one per head.
 - Each motor sits in a sled that slides 1.5 mm down its tower onto a push switch. Pressing the portafilter onto a head pushes the motor down and switches it on; lift off and it stops.
 - The heads push onto a 12 mm hex coupler on each motor shaft and are held by a magnet, so they pull straight off for cleaning.
 - The **scraper head** has three curved blades that clear the puck out of the basket.
@@ -17,6 +17,8 @@ It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate u
 - The top cover lifts off on magnets for cleaning.
 
 Sized for a 58 mm IMS basket, 24 mm deep.
+
+Runs on a DC supply of 6 to 12 V. It has been tested at 6 V, 9 V and 12 V and all three work; which to use is personal preference, since a higher voltage spins the heads faster. Mine runs at 9 V DC from an adjustable supply.
 
 Printed in Bambu Lab ABS-GF for the rigid parts and 75A TPU for the brush. Hardware comes from the Bambu Lab store; the motors, couplers, switches and power supply are listed with links in [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md).
 
@@ -29,7 +31,7 @@ Printed in Bambu Lab ABS-GF for the rigid parts and 75A TPU for the brush. Hardw
 | ![Container](images/container.png) | ![Scraper direction](images/scraper_direction.png) |
 | Bench-top version in its clear container | Which scraper to print for your motor's direction |
 | ![Wiring](images/wiring.svg) | |
-| Wiring: one 12 V socket, two switches, two motors | |
+| Wiring: one DC socket, two switches, two motors | |
 
 Both exploded sheets are also in [`docs/PuckOff_exploded_view.pdf`](docs/PuckOff_exploded_view.pdf) for printing on paper.
 
