@@ -6,33 +6,43 @@ The exploded view shows where every part, screw, nut and magnet goes: [`images/e
 
 ## Hardware
 
-| Item | Qty | Where it goes |
-|---|---|---|
-| M3×12 button head screw | 10 | 8 hold the flange ring to the tub, 2 hold the bottom cover (one under each tower). Must be button head on the ring: a taller head stands proud and the top cover will not sit down. |
-| M3×16 screw | 2 | One across the split of each motor sled. Any head up to 6 mm across. |
-| M3×20 screw | 1 | Right across the brush spindle, through both combs. |
-| M3 nut, nyloc if you have one | 1 | On the back of the brush spindle. |
-| M4×16 button head screw | 4 | Clamp plate to tub, from below. Worktop fitting only. |
-| M4 nut | 4 | Slide into the slots in the four bosses on the tub floor. Worktop fitting only. |
-| M8×100 hand screw (star knob) | 4 | Up through the ears of the clamp plate. Worktop fitting only. |
-| M8 nut | 4 | Drop into the hex pockets in the clamp plate ears. Worktop fitting only. |
-| Magnet, 6 × 3 mm round | 10 | 4 in the flange ring, 4 in the top cover, 1 in each head. |
+All from the Bambu Lab store (UK links; the same items are in the other regional stores). Pick the size on each page; the item code is shown next to each size.
 
-Also: felt or foam for the tops of the clamp pads.
+| Item | Qty | Bambu store | Where it goes |
+|---|---|---|---|
+| M3×12 button head screw (BHCS) | 10 | [M3 BHCS](https://uk.store.bambulab.com/products/m3-button-head-cap-machine-screws-bhcs), size M3×12, AA059 | 8 hold the flange ring to the tub, 2 hold the bottom cover (one under each tower). Must be button head on the ring: a taller head stands proud and the top cover will not sit down. |
+| M3×16 button head screw (BHCS) | 2 | [M3 BHCS](https://uk.store.bambulab.com/products/m3-button-head-cap-machine-screws-bhcs), size M3×16, AA060 | One across the split of each motor sled. A socket head M3×16 also fits. |
+| M3×20 socket head screw (SHCS) | 1 | [M3 SHCS](https://uk.store.bambulab.com/products/m3-socket-head-cap-machine-screws-shcs-1), size M3×20, AA040 | Right across the brush spindle, through both combs. |
+| M3 self-locking (nyloc) nut | 1 | [Self locking hex nut](https://uk.store.bambulab.com/products/self-locking-hex-nut), M3, AB008 | On the back of the brush spindle. A plain M3 nut also works. |
+| M4×16 button head screw (BHCS) | 4 | [M4 BHCS](https://uk.store.bambulab.com/products/m4-button-head-cap-machine-screws-bhcs), size M4×16, AA067 | Clamp plate to tub, from below. Worktop fitting only. |
+| M4 hex nut | 4 | Carbon steel hex nut, M4, in the [fasteners section](https://uk.store.bambulab.com/collections/fasteners) | Slide into the slots in the four bosses on the tub floor. Worktop fitting only. |
+| Round magnet 6 × 3 mm | 10 | [Round magnet](https://uk.store.bambulab.com/products/round-magnet), D6×3 | 4 in the flange ring, 4 in the top cover, 1 in each head. |
+| M8×100 hand screw (star knob) | 4 | not in the Bambu store | Up through the ears of the clamp plate. Worktop fitting only. |
+| M8 nut | 4 | not in the Bambu store | Drop into the hex pockets in the clamp plate ears. Worktop fitting only. |
+
+Also: felt or foam for the tops of the clamp pads (worktop fitting only).
+
+The M3×12 and M3×16 screws cut their own thread in the printed holes, so no other nuts are needed.
 
 ## Bought parts
 
-- 2 × 12 V geared DC motors, 370 size with a planetary gearbox, 4 mm shaft.
-- 2 × shaft couplers, 4 mm bore to 12 mm hex.
-- 2 × push switches, 16 mm, momentary.
-- 1 × DC socket adapter with screw terminals, 5.5 × 2.1 mm.
-- 1 × 12 V 2 A plug-in power supply.
-- 1 × 1 A fuse of a compact type. The space for the wire joints is about 20 × 32 × 8.5 mm, so a resettable PTC fuse fits and an inline glass-fuse holder does not.
-- 2 × diodes, 1N4007 or 1N5819.
+| Part | Qty | Link | Notes |
+|---|---|---|---|
+| 12 V geared motor, Mabuchi 370 with planetary gearbox, D-shaft | 2 | [AliExpress](https://www.aliexpress.com/item/1005004449521703.html) | Sold in several speeds (22 to 58 RPM). |
+| Shaft coupler, 4 mm bore to 12 mm hex | 2 | [AliExpress](https://www.aliexpress.com/item/1005009791959118.html) | |
+| Push switch, 16 mm, momentary, no LED, with wires, 12 to 24 V, black | 2 | [AliExpress](https://www.aliexpress.com/item/1005004920346156.html) | Pick the momentary, no-LED option. |
+| 12 V power supply with DC plug | 1 | [Amazon UK](https://www.amazon.co.uk/dp/B096VPYQ69) | |
+| DC socket adapter with screw terminals, 5.5 × 2.1 mm | 1 | | Pushes up into the slot in the back of the tub. Match it to the plug on your supply. |
+| 22 AWG wire, red and black | | [Amazon UK](https://www.amazon.co.uk/dp/B07V5FVSYL) | |
+| Heat-shrink sleeving | | | For every joint. |
 
 ## Wiring
 
-Supply positive → 1 A fuse → both switches. Each switch → its motor positive. Both motor negatives → supply negative. Fit one diode across each motor, stripe to positive, once you have settled which way each motor turns.
+![Wiring diagram](../images/wiring.svg)
+
+From the + terminal of the DC socket, one red wire to each push switch, and from each switch on to the + of its own motor. The − of both motors goes back to the − terminal of the socket. Pressing a portafilter onto a head closes that motor's switch, so each motor only runs while its own head is pressed.
+
+If a motor turns the wrong way, swap its two wires at the motor (see Direction below). Optional extras, not used in this build: an inline fuse in the + wire from the socket, and a diode across each motor (stripe to +) to save the switch contacts.
 
 ## Order of assembly
 
