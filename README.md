@@ -4,6 +4,10 @@ A 3D-printed, two-head portafilter cleaner for espresso. Turn the portafilter up
 
 ![PuckOff fitted in a worktop](images/puckoff.png)
 
+![Time-lapse of the PuckOff parts printing](images/printing_timelapse.gif)
+
+*The parts printing, as a time-lapse.*
+
 It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate underneath, or stand on the bench in a clear container that catches the grounds.
 
 ## How it works
@@ -43,7 +47,7 @@ parts/
   scraper_head/   scraper, in two hands (print one)
   brush_head/     rigid spindle and the TPU stars and combs
   container/      optional clear grounds container for bench-top use
-images/           the pictures above and the wiring diagram
+images/           the pictures above, the print time-lapse and the wiring diagram
 docs/             assembly guide, printing guide, exploded view PDF
 slicer/           Bambu Studio filament profile for the clear container
 ```
