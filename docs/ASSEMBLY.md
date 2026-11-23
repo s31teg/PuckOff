@@ -82,4 +82,4 @@ The combs must sit down on the top star with no gap. If there is a 4 mm gap, a w
 
 ## Direction
 
-The tower caps lock by turning clockwise, so a head turning clockwise drags its cap onto its stop. If your motor turns the other way, swap its two wires, or print the reverse scraper and rely on the click to hold the cap.
+The tower caps lock by turning clockwise, so a head turning clockwise drags its cap onto its stop. If your motor turns the other way, swap its two wires, or print the `_reverse` drill head and rely on the click to hold the cap. The drill head must match the way its motor turns: see [`PRINTING.md`](PRINTING.md).
