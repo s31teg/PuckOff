@@ -15,7 +15,7 @@ It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate u
 - Two small geared DC motors (rated 5 to 12 V) stand in towers inside a printed tub, one per head.
 - Each motor sits in a sled that slides 1.5 mm down its tower onto a push switch. Pressing the portafilter onto a head pushes the motor down and switches it on; lift off and it stops.
 - The heads push onto a 12 mm hex coupler on each motor shaft and are held by a magnet, so they pull straight off for cleaning.
-- The **scraper head** has three curved blades that clear the puck out of the basket.
+- The **scraper head** is a short drill: three solid blades, twisted so they lean 45° at the edge, break up the puck and carry the grounds down out of the basket.
 - The **brush head** is a stack of flat TPU stars and combs on a rigid spindle. The stars wipe the rim and the wall, and the combs wipe the floor and the corner.
 - Tower caps lock with a twist and a click, with no screws.
 - The top cover lifts off on magnets for cleaning.
@@ -62,7 +62,11 @@ Every file in `parts` is one part, already turned the right way up for printing.
 
 ## Status
 
-This is a personal project and a work in progress. The twist-lock caps, the click and the brush head have been printed and tried. The latest motor sled, the reverse scraper and the grounds container have not been printed yet. Measure your own basket, worktop and parts before cutting anything.
+This is a personal project and a work in progress. A complete unit has been built and is in use on the bench in its clear container.
+
+The current version is 0.2 (see [Releases](https://github.com/s31teg/PuckOff/releases)). It has a new scraper head (a drill head; the puck stuck to the first one), a firmer rim star (the first one left grounds round the rim) and tower caps with more room inside for the motor. The new heads work much better than the first ones.
+
+Measure your own basket, worktop and parts before cutting anything.
 
 ## Licence
 
