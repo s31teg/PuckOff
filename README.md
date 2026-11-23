@@ -18,6 +18,8 @@ It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate u
 
 Sized for a 58 mm IMS basket, 24 mm deep.
 
+Printed in Bambu Lab ABS-GF for the rigid parts and 75A TPU for the brush. Hardware comes from the Bambu Lab store; the motors, couplers, switches and power supply are listed with links in [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md).
+
 ## Pictures
 
 | | |
@@ -26,6 +28,8 @@ Sized for a 58 mm IMS basket, 24 mm deep.
 | Whole unit pulled apart, with every screw, nut and magnet | Brush head, hardware list and order of assembly |
 | ![Container](images/container.png) | ![Scraper direction](images/scraper_direction.png) |
 | Bench-top version in its clear container | Which scraper to print for your motor's direction |
+| ![Wiring](images/wiring.svg) | |
+| Wiring: one 12 V socket, two switches, two motors | |
 
 Both exploded sheets are also in [`docs/PuckOff_exploded_view.pdf`](docs/PuckOff_exploded_view.pdf) for printing on paper.
 
@@ -37,7 +41,7 @@ parts/
   scraper_head/   scraper, in two hands (print one)
   brush_head/     rigid spindle and the TPU stars and combs
   container/      optional clear grounds container for bench-top use
-images/           the pictures above
+images/           the pictures above and the wiring diagram
 docs/             assembly guide, printing guide, exploded view PDF
 slicer/           Bambu Studio filament profile for the clear container
 ```
@@ -47,8 +51,8 @@ Every file in `parts` is one part, already turned the right way up for printing.
 ## Getting started
 
 1. Read [`docs/PRINTING.md`](docs/PRINTING.md) for what to print, in what material and which way up.
-2. Get the hardware and bought parts in [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md).
-3. Follow the order of assembly in the same guide.
+2. Get the hardware and bought parts in [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md), with links to each.
+3. Wire it as in [`images/wiring.svg`](images/wiring.svg) and follow the order of assembly in the same guide.
 
 ## Status
 
