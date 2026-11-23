@@ -22,21 +22,21 @@ All the rigid parts were printed in **Bambu Lab ABS-GF** (ABS with glass fibre).
 
 ## Scraper head (`parts/scraper_head`)
 
-ABS-GF, like the unit. Print **one** of the two. The blades are curved and should run with their outer ends leading.
+ABS-GF, like the unit. A short drill: three solid blades, twisted so they lean 45° at the edge. The top of each blade has to lead as it turns, so the blades carry the grounds down out of the basket; turned the other way they would push them up into it. Print **one** of the two.
 
 | File | When | Notes |
 |---|---|---|
-| `1x_Drill_head_short_IMS58_H24.stl` | Motor turns clockwise, seen from above | Upside down, use a brim. 51 × 49 × 38 mm. |
-| `1x_Drill_head_short_IMS58_H24_reverse.stl` | Motor turns anticlockwise, seen from above | The mirror image. Same printing. |
+| `1x_Drill_head_short_IMS58_H24.stl` | Motor turns clockwise, seen from above | Upside down, use a brim. 58 × 54 × 38 mm. One face of each blade overhangs at up to 45°; no supports needed. |
+| `1x_Drill_head_short_IMS58_H24_reverse.stl` | Motor turns anticlockwise, seen from above | Twisted the other way. Same printing. |
 
-Swapping the two wires on a motor reverses it, which is the other way to match the scraper. See [`images/scraper_direction.png`](../images/scraper_direction.png).
+Swapping the two wires on a motor reverses it, which is the other way to match the drill head. See [`images/scraper_direction.png`](../images/scraper_direction.png).
 
 ## Brush head (`parts/brush_head`)
 
 | File | Print | Material | Notes |
 |---|---|---|---|
 | `1x_Brush_stack_hub.stl` | 1 | ABS-GF | Spindle. Upside down (top of the spindle on the bed), use a brim. 22 × 22 × 38 mm. |
-| `1x_Brush_star_rim_TPU.stl` | 1 | TPU | Flat, boss up. 74 mm across. |
+| `1x_Brush_star_rim_TPU.stl` | 1 | TPU | Flat, boss up. 82 mm across, so the tips wipe over the outer edge of the rim; a ridge along each arm presses on the rim. |
 | `2x_Brush_star_wall_A_TPU.stl` | **2** | TPU | Flat, boss up. Easy to print only one by mistake: the stack needs both. |
 | `1x_Brush_star_wall_B_TPU.stl` | 1 | TPU | Flat, boss up. |
 | `2x_Brush_comb_TPU.stl` | 2 | TPU | Lying flat. 2.4 mm thick. |
