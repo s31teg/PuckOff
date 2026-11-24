@@ -10,7 +10,7 @@ A 3D-printed, two-head portafilter cleaner for espresso. Turn the portafilter up
 
 It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate underneath, or stand on the bench in a printed container that catches the grounds.
 
-A ready-to-print Bambu Lab H3C profile (8 named plates, 0.20 mm layers, tree supports) and the full parts list with the Bambu Lab store hardware are going up on MakerWorld, under [Printer McGee](https://makerworld.com/en/@PrinterMcGee).
+A ready-to-print Bambu Lab H3C profile (8 named plates, 0.20 mm layers, tree supports) and the full parts list with the Bambu Lab store hardware are on MakerWorld: [PuckOff on MakerWorld](https://makerworld.com/en/models/3675893-puckoff-two-head-portafilter-cleaner-58-mm).
 
 ## Built
 
