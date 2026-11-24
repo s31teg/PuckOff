@@ -1,6 +1,6 @@
 # Printing
 
-All files are already turned the right way up for printing. **No part needs supports.** The pre-sliced Bambu Lab H3C profile on [MakerWorld](https://makerworld.com/en/@PrinterMcGee) turns on tree supports (auto, 30° threshold) with Bambu Support for ABS as the interface layer and uses 5 wall loops; the parts print without supports too. The number at the front of each file name is how many to print; each file holds one part.
+All files are already turned the right way up for printing. **No part needs supports.** The pre-sliced Bambu Lab H3C profile on [MakerWorld](https://makerworld.com/en/models/3675893-puckoff-two-head-portafilter-cleaner-58-mm) turns on tree supports (auto, 30° threshold) with Bambu Support for ABS as the interface layer and uses 5 wall loops; the parts print without supports too. The number at the front of each file name is how many to print; each file holds one part.
 
 Designed for a 0.4 mm nozzle; the overhang checks assume 0.2 mm layers.
 
