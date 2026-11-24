@@ -8,16 +8,18 @@ A 3D-printed, two-head portafilter cleaner for espresso. Turn the portafilter up
 
 *The parts printing, as a time-lapse.*
 
-It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate underneath, or stand on the bench in a clear container that catches the grounds.
+It can be fitted through a cut-out in a kitchen worktop, held by a clamp plate underneath, or stand on the bench in a printed container that catches the grounds.
+
+A ready-to-print Bambu Lab H3C profile (8 named plates, 0.20 mm layers, tree supports) and the full parts list with the Bambu Lab store hardware are going up on MakerWorld, under [Printer McGee](https://makerworld.com/en/@PrinterMcGee).
 
 ## Built
 
-A finished unit. Both photos show the first (v0.1) scraper and rim star.
+A finished v0.2 unit, with the drill head and the firmer rim star. The container in these photos is printed in clear PLA (see [`slicer`](slicer)); the printing guide now uses ABS-GF for it, like the rest of the unit.
 
-| | |
-|---|---|
-| ![PuckOff on the bench in its clear container](images/photo_bench_container.jpg) | ![PuckOff on its own](images/photo_unit.jpg) |
-| On the bench in the printed clear container | On its own, without the container |
+| | | |
+|---|---|---|
+| ![PuckOff v0.2 on the bench in its grounds container](images/photo_v0.2_unit.jpg) | ![The drill head](images/photo_v0.2_drill_head.jpg) | ![The brush head](images/photo_v0.2_brush_head.jpg) |
+| On the bench in its grounds container | The drill head | The brush head |
 
 ## How it works
 
@@ -33,7 +35,7 @@ Sized for a 58 mm IMS basket, 24 mm deep.
 
 Runs on a DC supply of 6 to 12 V. It has been tested at 6 V, 9 V and 12 V and all three work; which to use is personal preference, since a higher voltage spins the heads faster. Mine runs at 9 V DC from an adjustable supply.
 
-Printed in Bambu Lab ABS-GF for the rigid parts and 75A TPU for the brush. Hardware comes from the Bambu Lab store; the motors, couplers, switches and power supply are listed with links in [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md).
+Printed in Bambu Lab ABS-GF for every rigid part, including the optional grounds container, and 75A TPU for the brush. Hardware comes from the Bambu Lab store; the motors, couplers, switches and power supply are listed with links in [`docs/ASSEMBLY.md`](docs/ASSEMBLY.md).
 
 ## Pictures
 
@@ -42,7 +44,7 @@ Printed in Bambu Lab ABS-GF for the rigid parts and 75A TPU for the brush. Hardw
 | ![Exploded view](images/exploded_view_1_whole_unit.png) | ![Brush head and hardware](images/exploded_view_2_brush_head_and_hardware.png) |
 | Whole unit pulled apart, with every screw, nut and magnet | Brush head, hardware list and order of assembly |
 | ![Container](images/container.png) | ![Scraper direction](images/scraper_direction.png) |
-| Bench-top version in its clear container | Which scraper to print for your motor's direction |
+| Bench-top version in its grounds container | Which scraper to print for your motor's direction |
 | ![Wiring](images/wiring.svg) | |
 | Wiring: one DC socket, two switches, two motors | |
 
@@ -55,10 +57,10 @@ parts/
   unit/           tub, covers, tower caps, motor sleds, switch discs, clamp parts
   scraper_head/   scraper, in two hands (print one)
   brush_head/     rigid spindle and the TPU stars and combs
-  container/      optional clear grounds container for bench-top use
+  container/      optional grounds container for bench-top use
 images/           photos, the pictures above, the print time-lapse and the wiring diagram
 docs/             assembly guide, printing guide, exploded view PDF
-slicer/           Bambu Studio filament profile for the clear container
+slicer/           Bambu Studio filament profile for a see-through clear PLA container
 ```
 
 Every file in `parts` is one part, already turned the right way up for printing. The number at the front of the name is how many to print.
@@ -71,7 +73,7 @@ Every file in `parts` is one part, already turned the right way up for printing.
 
 ## Status
 
-This is a personal project and a work in progress. A complete unit has been built and is in use on the bench in its clear container.
+This is a personal project and a work in progress. A complete unit has been built and is in use on the bench in its clear PLA grounds container.
 
 The current version is 0.2 (see [Releases](https://github.com/s31teg/PuckOff/releases)). It has a new scraper head (a drill head; the puck stuck to the first one), a firmer rim star (the first one left grounds round the rim) and tower caps with more room inside for the motor. The new heads work much better than the first ones.
 
