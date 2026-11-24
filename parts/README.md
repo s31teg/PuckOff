@@ -20,5 +20,5 @@ Each file is one part, already turned the right way up for printing. The number 
 | `brush_head` | `2x_Brush_star_wall_A_TPU.stl` | 2, TPU |
 | `brush_head` | `1x_Brush_star_wall_B_TPU.stl` | 1, TPU |
 | `brush_head` | `2x_Brush_comb_TPU.stl` | 2, TPU |
-| `container` | `1x_Grounds_container_4L_clear_PLA.stl` | optional, bench-top use |
-| `container` | `1x_Grounds_container_0.6L_clear_PLA.stl` | or this smaller one |
+| `container` | `1x_Grounds_container_4L.stl` | optional, bench-top use |
+| `container` | `1x_Grounds_container_0.6L.stl` | or this smaller one |

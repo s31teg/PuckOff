@@ -1,6 +1,6 @@
 # Printing
 
-All files are already turned the right way up for printing. **No part needs supports.** The number at the front of each file name is how many to print; each file holds one part.
+All files are already turned the right way up for printing. **No part needs supports.** The pre-sliced Bambu Lab H3C profile on [MakerWorld](https://makerworld.com/en/@PrinterMcGee) turns on tree supports (auto, 30° threshold) with Bambu Support for ABS as the interface layer and uses 5 wall loops; the parts print without supports too. The number at the front of each file name is how many to print; each file holds one part.
 
 Designed for a 0.4 mm nozzle; the overhang checks assume 0.2 mm layers.
 
@@ -45,14 +45,14 @@ The TPU parts were printed in 75A TPU. Every flexible part lies flat on the bed 
 
 ## Grounds container (`parts/container`, optional)
 
-Only for using PuckOff on the bench instead of in a worktop. Print one of the two in clear PLA so you can see how full it is.
+Only for using PuckOff on the bench instead of in a worktop. Print one of the two in Bambu Lab ABS-GF, like the rest of the unit. If you would rather see how full it is, print it in a clear PLA instead: the one in the photos is Fillamentum PLA Crystal Clear (about 330 g for the 4 litre one), and a Bambu Studio filament profile for it is in [`slicer`](../slicer).
 
-| File | Holds | Size (mm) | Filament |
+| File | Holds | Size (mm) | ABS-GF |
 |---|---|---|---|
-| `1x_Grounds_container_4L_clear_PLA.stl` | 4 litres | 253 × 134 × 253 | about 330 g |
-| `1x_Grounds_container_0.6L_clear_PLA.stl` | 0.6 litres | 253 × 134 × 136 | about 190 g |
+| `1x_Grounds_container_4L.stl` | 4 litres | 253 × 134 × 253 | about 260 g |
+| `1x_Grounds_container_0.6L.stl` | 0.6 litres | 253 × 134 × 136 | about 155 g |
 
-Floor on the bed, no supports, 0.2 mm layers, 3 wall loops: the wall is 1.26 mm, exactly three 0.42 mm lines. A Bambu Studio filament profile for Fillamentum PLA Crystal Clear is in [`slicer`](../slicer).
+Floor on the bed, no supports, 0.2 mm layers. The wall is 1.26 mm, exactly three 0.42 mm lines, so a higher wall-loop setting changes nothing.
 
 ## Holes for screws
 

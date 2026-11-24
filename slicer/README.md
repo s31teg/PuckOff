@@ -1,6 +1,6 @@
 # Bambu Studio filament profile
 
-`Fillamentum PLA Crystal Clear @BBL H3C.json` is a filament profile for printing the clear grounds container in Fillamentum PLA Crystal Clear on a Bambu Lab H3C.
+`Fillamentum PLA Crystal Clear @BBL H3C.json` is a filament profile for printing the optional grounds container see-through, in Fillamentum PLA Crystal Clear, on a Bambu Lab H3C. The container in the photos was printed with it. The default material for the container is Bambu Lab ABS-GF, like the rest of the unit (see [`docs/PRINTING.md`](../docs/PRINTING.md)).
 
 ## Import
 
